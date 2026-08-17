@@ -1,0 +1,10 @@
+event_time,estimate,conf_low,conf_high,series
+-4,-0.018,-0.071,0.035,Main estimate
+-3,0.011,-0.035,0.057,Main estimate
+-2,-0.006,-0.043,0.031,Main estimate
+-1,0.000,0.000,0.000,Reference period
+0,0.067,0.020,0.114,Main estimate
+1,0.092,0.039,0.145,Main estimate
+2,0.105,0.044,0.166,Main estimate
+3,0.089,0.020,0.158,Main estimate
+4,0.076,0.001,0.151,Main estimate

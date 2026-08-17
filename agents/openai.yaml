@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Science Figures & Tables"
+  short_description: "APSR/AJPS-style R figures and LaTeX tables"
+  default_prompt: "Use $make-social-science-figures-tables to format my R figure and regression table for APSR or AJPS."

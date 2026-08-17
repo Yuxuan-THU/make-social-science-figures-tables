@@ -1,0 +1,43 @@
+{
+  "items": 100,
+  "figures": 50,
+  "tables": 50,
+  "journal_artifact": {
+    "APSR-figure": 25,
+    "AJPS-figure": 25,
+    "APSR-table": 25,
+    "AJPS-table": 25
+  },
+  "papers_total": 29,
+  "papers_APSR": 15,
+  "papers_AJPS": 14,
+  "unique_perceptual_hashes": 100,
+  "category_counts": {
+    "figure:bar-composition": 3,
+    "figure:coefficient-forest": 9,
+    "figure:design-theory": 7,
+    "figure:distribution-density": 3,
+    "figure:event-study": 5,
+    "figure:map-spatial": 5,
+    "figure:marginal-predicted": 6,
+    "figure:network-flow": 4,
+    "figure:scatter-binned": 3,
+    "figure:time-series": 5,
+    "table:balance-randomization": 1,
+    "table:case-qualitative": 2,
+    "table:crosstab-classification": 3,
+    "table:descriptive-sample": 5,
+    "table:formal-theory-simulation": 2,
+    "table:measurement-coding": 5,
+    "table:model-comparison": 6,
+    "table:regression-model": 21,
+    "table:treatment-effects": 5
+  },
+  "code_status_counts": {
+    "exact-source": 70,
+    "not-found": 30
+  },
+  "quota_pass": true,
+  "dedup_pass": true,
+  "paper_pass": true
+}

@@ -1,0 +1,12 @@
+name: make-social-science-figures-tables
+version: 1.0.0
+backend: R+LaTeX
+routes:
+  apsr:
+    figure: [references/apsr-style.md, references/figure-taxonomy.md, references/qa-contract.md]
+    table: [references/apsr-style.md, references/table-taxonomy.md, references/qa-contract.md]
+  ajps:
+    figure: [references/ajps-style.md, references/figure-taxonomy.md, references/qa-contract.md]
+    table: [references/ajps-style.md, references/table-taxonomy.md, references/qa-contract.md]
+stable_interfaces: [theme_apsr, theme_ajps, save_polisci_figure, table_apsr, table_ajps]
+deliverables: [source, vector, preview, redraw_data, qa]

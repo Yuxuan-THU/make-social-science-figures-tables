@@ -1,0 +1,25 @@
+Package: MakeSocialScienceFiguresTables
+Type: Project
+Title: APSR and AJPS Figure and Table Helpers
+Version: 1.0.0
+Authors@R: person("Codex", role = c("aut", "cre"), email = "noreply@example.com")
+Description: Reproducible R and LaTeX helpers and synthetic examples for APSR and AJPS figures and tables.
+License: MIT
+Encoding: UTF-8
+Imports:
+    ggplot2,
+    patchwork,
+    ggrepel,
+    marginaleffects,
+    sf,
+    igraph,
+    ggraph,
+    svglite,
+    ragg,
+    modelsummary,
+    fixest,
+    jsonlite,
+    dplyr,
+    tidyr,
+    scales,
+    renv
