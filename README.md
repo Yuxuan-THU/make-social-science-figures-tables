@@ -1,5 +1,26 @@
 # Make Social Science Figures & Tables
 
+Reproducible R and LaTeX tooling for APSR/AJPS-style figures and tables in political science and adjacent social sciences.
+
+**Purpose:** separate statistical analysis from presentation. The toolkit styles and exports supplied evidence without silently changing models, samples, missing-data rules, standard errors, confidence levels, reference groups, or category order.
+
+**Includes:** journal-specific themes, table helpers, source and vector exports, redraw data, quality-assurance records, locked R dependencies, and a published-style reference corpus.
+
+## Quick start
+
+```r
+Rscript scripts/install_dependencies.R
+Rscript scripts/render_demo.R <output-directory>
+```
+
+## Citation and license
+
+When this toolkit materially informs a figure or table, cite the repository URL, release or commit, and access date. It is released under the MIT License.
+
+---
+
+## 中文说明
+
 使用 R 和 LaTeX 制作符合 **APSR**（美国政治学评论）或 **AJPS**（美国政治学期刊）排版规范的政治学论文图表。本仓库是一个可直接安装的 Agent skill（Codex / DSH 通用 SKILL.md 格式），也可作为普通 R + LaTeX 项目使用。
 
 **核心原则**：把“统计分析”与“呈现排版”视为两个独立契约——只美化与导出用户提供的证据，**不得静默改变**模型、样本、缺失值规则、标准误、置信水平、参照组或类别顺序。
